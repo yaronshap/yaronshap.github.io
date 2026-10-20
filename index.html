@@ -68,6 +68,8 @@
   table.pubtable td.year { white-space: nowrap; }
   table.pubtable td.venue { min-width: 11rem; }
   table.pubtable td.links a { display: inline-block; margin-right: .6rem; }
+  a.hover-reveal { opacity: 0; transition: opacity .15s; }
+  a.hover-reveal:hover, a.hover-reveal:focus { opacity: 1; }
   ul.plain { padding-left: 1.2rem; margin: .5rem 0; }
   ul.plain li { margin-bottom: .4rem; }
   footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
@@ -214,7 +216,7 @@ Engineering, also from the Technion.
   <tr>
     <td><span class="pub-title">Dynamic Prediction of Waiting Time Intervals: Application to Cancer Care Facilities</span><br><span class="pub-authors">with Yashi Huang and Arik Senderovich</span></td>
     <td class="year">Under review</td>
-    <td class="links"></td>
+    <td class="links"><a class="hover-reveal" href="waiting-time-slides.pdf">Slides</a></td>
   </tr>
   <tr>
     <td><span class="pub-title">Stochastic Selection Problems with Testing</span><br><span class="pub-authors">with Chen Attias, Robert Krauthgamer, and Retsef Levi</span></td>
